@@ -1,0 +1,8 @@
+ISBN: 9781449331818
+Title: Learning JavaScript Design Patterns
+Sub Title: A JavaScript and jQuery Developer's Guide
+Author: Addy Osmani
+Publisher: O'Reilly Media
+Total Pages: 254
+Description: With Learning JavaScript Design Patterns, you'll learn how to write beautiful, structured, and maintainable JavaScript by applying classical and modern design patterns to the language. If you want to keep your code efficient, more manageable, and up-to-da
+Website: http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/
