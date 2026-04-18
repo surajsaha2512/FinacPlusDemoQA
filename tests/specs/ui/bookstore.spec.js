@@ -45,8 +45,8 @@ test('Bookstore Flow', async ({ loginPage, bookStorePage, bookDetailsPage }) => 
     await writeToFileTxt(bookDetails);
   });
 
-//   await test.step('Logout from application', async () => {
-//     await loginPage.logoutBtn.click();
-//   });
+  await test.step('Logout from application', async () => {
+    await bookDetailsPage.logout();
+  });
 
 });

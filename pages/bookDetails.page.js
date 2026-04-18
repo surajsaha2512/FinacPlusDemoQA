@@ -2,6 +2,8 @@ class BookDetailsPage {
   constructor(page) {
     this.page = page;
     this.bookIndividualDetail=(type)=>page.locator(`#${type} label`).last();
+    this.logoutBtn = page.getByRole('button',{name:"Log out"});
+
   }
 
   async bookDetails(){
@@ -15,6 +17,9 @@ class BookDetailsPage {
     description: await this.bookIndividualDetail('description-wrapper').textContent(),
     website: await this.bookIndividualDetail('website-wrapper').textContent()
   };
+  }
+  async logout(){
+    await this.logoutBtn.click();
   }
 }
 module.exports = { BookDetailsPage };
