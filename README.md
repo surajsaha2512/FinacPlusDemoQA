@@ -163,7 +163,6 @@ exports.test = base.test.extend({
 
 ## 🧠 API Client Design
 
-- Uses Playwright `request.newContext()`
 - Base URL injected from `SERVICE_BASE_URL`
 - Centralized methods:
   - `createUser()`
