@@ -8,7 +8,7 @@ test('Bookstore Flow', async ({ loginPage, bookStorePage, bookDetailsPage }) => 
   const bookName = 'Learning JavaScript Design Patterns Ankita Suraj';
   console.log(bookName)
   let bookDetails={};
-
+  console.log("this is my test branch")
   await test.step('Navigate to DemoQA website', async () => {
     await loginPage.goto();
   });
