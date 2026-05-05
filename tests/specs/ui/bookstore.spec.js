@@ -5,7 +5,7 @@ test('Bookstore Flow', async ({ loginPage, bookStorePage, bookDetailsPage }) => 
 
   const username = process.env.STORE_USER_NAME;
   const password = process.env.STORE_PASSWORD;
-  const bookName = 'Learning JavaScript Design Patterns Ankita';
+  const bookName = 'Learning JavaScript Design Patterns Ankita Suraj';
   console.log(bookName)
   let bookDetails={};
 
